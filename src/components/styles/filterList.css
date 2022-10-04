@@ -1,0 +1,14 @@
+.card__filter{
+    background: rgba(0, 0, 0, 0.185);
+    text-align: center;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-width: 367px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
