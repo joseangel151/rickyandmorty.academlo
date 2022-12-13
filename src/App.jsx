@@ -46,11 +46,11 @@ axios.get(URL)
 
   return (
     <div className="App">
-      <img className='card__image' src='https://www.xtrafondos.com/wallpapers/rick-y-morty-en-el-espacio-6046.jpg' alt="" />
+      <img className='card__image' src='images/The-best-Rick-And-Morty.jpg' alt="" />
       <img className='card__image-title' src="https://lyricstranslate.com/files/styles/artist/public/Rick_and_Morty_logo.png" alt="" />  
     <form className='card__form'  onSubmit={handleSubmit}>
       <div className='card__form-search'>
-        <input className='card__input'
+        <input className='card__input'  
         id='idLocation'
         placeholder='Enter another number from 1 to 126' type="text" 
         onChange = {handleChange}

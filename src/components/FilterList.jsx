@@ -3,7 +3,7 @@ import './styles/filterList.css'
 
 const FilterList = ({suggestedList, setSearchInput}) => {
 
-  console.log(suggestedList)
+  //console.log(suggestedList)
   const handleClíck = id => setSearchInput(id)
   
   

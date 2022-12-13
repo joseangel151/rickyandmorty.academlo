@@ -1,5 +1,5 @@
 .card__filter{
-    background: rgba(0, 0, 0, 0.185);
+    background: hsla(39, 96%, 55%, 0.747);
     text-align: center;
     border-radius: 20px 20px 0px 0px;
     margin-left: 10%;
@@ -10,5 +10,15 @@
     gap: 5px;
     padding-top: 30px;
     padding-bottom: 30px;
-}
+    color: black;
+    cursor: pointer;
+        
+        }
+        .card__filter-list:hover{
+            transform: scale(1.05);
+            filter: brightness(1.2);
+            transition: transforms 100ms ease;
+            color: red;
+        }
+
 

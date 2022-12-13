@@ -12,6 +12,7 @@ const CardResident = ({ url }) => {
     }, [])
 
 
+
     return (
         <article className='card'>
             <header className='card__header'>
@@ -29,6 +30,7 @@ const CardResident = ({ url }) => {
                     <li className='card__item'> <span className='card__span'>Episodes where appear</span>{resident?.episode.length}</li>
                 </ul>
             </section>
+
         </article>
     )
 }

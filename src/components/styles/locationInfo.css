@@ -1,5 +1,5 @@
 .card__location{
-    background-color: black;
+    background-color: #c44c14;
     text-align: center;
     display: grid;
     gap: 20px;
@@ -11,6 +11,7 @@
     margin-bottom: 30px;
     border-radius: 0px 0px 20px 20px;
     min-width: 367px;
+    color: #250404
    
 
 }  
@@ -21,3 +22,16 @@
 .card__location-list{
     padding: 2%;
 }
+
+.card__error{
+text-align: center;
+}
+
+.card__error img{
+  left: 36%;
+  margin-bottom: 4%;
+  margin-top: 0%;
+  width: 28%;
+  z-index: 100;
+  position: relative;
+    }
